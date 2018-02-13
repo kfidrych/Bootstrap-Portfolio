@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('../images/dust_scratches.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #777777;
+    background-color: #ffffff;
+}
+
+div.row.header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+    margin: 0px;
+}
+
+h1.header {
+    width: fit-content;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+
+ul.nav {
+    min-height: 100%;
+    display: flex;
+}
+
+ul.nav a {
+    color: #777777;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0px 20px 0px 20px;
+}
+
+.main {
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+}
+
+.clearfix {
+    width:640px;
+    float:left;
+    border:1px solid #cccccc;
+    background:#ffffff;
+    padding:0px 20px 0px 20px;
+}
+
+#content {
+    margin-right: 0px;
+}
+
+@media screen and (min-width: 992px) {
+    #content {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #fullWidth {
+        width: 100%;
+        text-align: center;
+    }
+    #topHeader {
+        padding: 0px;
+    }
+    .nav li {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .nav a {
+        display: inline-block;
+    }
+}
+
+
+h1, h2, h3, h4 {
+    color:#4aaaa5;
+    font-family: 'Georgia', serif;
+}
+
+hr {
+    height: 2px;
+    background-color:#dddddd;
+    margin-bottom: 22px;
+    border: #dddddd;
+}
+
+#noPadding {
+    padding: 0px 0px 0px 15px;
+}
+
+#connectMe hr {
+    height: 2px;
+    background-color:#dddddd;
+    margin: 0px 30px 22px 30px;
+}
+
+#profilePic {
+    float:left; 
+    margin-right:15px;
+    margin-bottom: 15px;
+    max-width: 340px;
+}
+
+#aboutMeText {
+    line-height:35px; 
+    color: #777777;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#connectMe {
+    width:270px; 
+    padding-bottom: 20px;
+    border:1px solid #cccccc;
+    background: #ffffff;
+    text-align:center;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+#connectMe img {
+    height: 60px;
+    width: 60px;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 40px;
+    border-top: 8px solid #4ba9a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 8pt;
+}
+
+ul {
+    position: inline;
+}   
+
+.nav {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.nav li {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav a {
+    display: inline-block;
+}
+
+.nav a:link {
+    color: #888888;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+.nav a:focus {
+    color: green;
+}
+
+.nav a:active {
+    color: yellow;
+}
+
+input {
+    height:30px; 
+    width:600px; 
+    font-size:10pt;
+}
+
+textarea {
+    width:600px; 
+    font-size:10pt;
+    border:1px solid #cccccc;
+}
+
+.btn {
+    background-color: #4ba9a4;
+    color: #ffffff;
+    border: #4ba9a4;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 640px;
+}
+
+.portfolio img {
+    height:200px;
+    width: 290px;
+}
+
+.box {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.portfolioTitle {
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: #4ba9a4;
+    border: #4ba9a4;
+    color: #ffffff;
+    height: 50px;
+    width: 290px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 767px) {
+    div.portfolio {
+        margin: 22px 0px;
+        border: 0px;
+        max-width: 47%;
+        float: left;
+    }
+    div.portfolio:nth-of-type(2n) {
+        margin: 22px 0px;
+        margin-right: 0px;
+        float: right;
+    }
+}
